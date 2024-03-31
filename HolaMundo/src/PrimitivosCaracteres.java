@@ -1,4 +1,4 @@
-public class Caracteres {
+public class PrimitivosCaracteres {
     public static void main(String[] args) {
 
 //      ----- CHAR -----
@@ -23,6 +23,17 @@ public class Caracteres {
 
 //      ----- CHAR ESPECIALES -----
 
-        
+        char espacio = ' '; // El espacio se considera un character
+        System.out.println("espacio = " + espacio);
+        char retroceso = '\b';
+        System.out.println("retroceso=" + retroceso);
+        char tabulador = '\t';
+        System.out.println("tabulador = " + tabulador);
+        char nuevaLinea = '\n';
+        System.out.println("nuevaLinea = " + nuevaLinea);
+        char retornoCarro = '\r';
+        System.out.println("retornoCarro = " + retornoCarro);
+
+        System.out.println("Hola mundo" + System.lineSeparator() + "cruel");
     }
 }
